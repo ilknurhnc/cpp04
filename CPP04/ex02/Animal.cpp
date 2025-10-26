@@ -23,11 +23,6 @@ Animal::~Animal()
     std::cout << "The animal was destroyed." << std::endl;
 }
 
-void Animal::makeSound() const
-{
-    std::cout << "No animal was identified." << std::endl;
-}
-
 std::string Animal::getType() const
 {
     return this->type;

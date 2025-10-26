@@ -11,10 +11,10 @@ WrongCat::WrongCat(const WrongCat &copy) : WrongAnimal(copy)
 	*this = copy;
 }
 
-WrongCat &WrongCat::operator=(const WrongCat &a) {
-	if (this != &a) {
+WrongCat &WrongCat::operator=(const WrongCat &a)
+{
+	if (this != &a)
 		this->type = a.type;
-	}
 	return *this;
 }
 

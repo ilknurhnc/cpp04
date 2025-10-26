@@ -10,6 +10,8 @@ class WrongAnimal
         std::string type;
     public:
         WrongAnimal();
+        WrongAnimal(const WrongAnimal &copy);
+		WrongAnimal &operator=(const WrongAnimal &a);
         ~WrongAnimal();
         void makeSound() const;
         std::string getType() const;
